@@ -14,7 +14,7 @@ const SearchForm = ({ query }: { query?: string }) => {
         <input
           name="query"
           defaultValue={query}
-          placeholder="Search..."
+          placeholder="Search...."
           className="flex-grow text-gray-900 placeholder-gray-400 text-lg font-medium outline-none"
         />
         <div className="ml-3 flex items-center gap-3">
